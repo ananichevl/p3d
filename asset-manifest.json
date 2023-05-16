@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/p3d/static/css/main.203bd7ee.css",
-    "main.js": "/p3d/static/js/main.4c1582e2.js",
+    "main.js": "/p3d/static/js/main.b39d8319.js",
     "static/js/787.28cb0dcd.chunk.js": "/p3d/static/js/787.28cb0dcd.chunk.js",
     "static/media/Empire-decalcolor_1.png": "/p3d/static/media/Empire-decalcolor_1.69b9109ddd3cf05803bb.png",
     "static/media/Empire-decalcolor_3.png": "/p3d/static/media/Empire-decalcolor_3.aa93e20bc1167464b881.png",
@@ -13,11 +13,11 @@
     "static/media/Empire-basecolor_1.png": "/p3d/static/media/Empire-basecolor_1.f9cc889b6729f9e0c800.png",
     "index.html": "/p3d/index.html",
     "main.203bd7ee.css.map": "/p3d/static/css/main.203bd7ee.css.map",
-    "main.4c1582e2.js.map": "/p3d/static/js/main.4c1582e2.js.map",
+    "main.b39d8319.js.map": "/p3d/static/js/main.b39d8319.js.map",
     "787.28cb0dcd.chunk.js.map": "/p3d/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.203bd7ee.css",
-    "static/js/main.4c1582e2.js"
+    "static/js/main.b39d8319.js"
   ]
 }
