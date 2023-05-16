@@ -8,6 +8,10 @@ function App() {
         <h1>Select configuration</h1>
         <Base />
         <Decal />
+        <button style={{marginTop: '20px', width: '60px', height: '60px'}} onClick={() => {
+            window.location.href = 'https://p3d.in/ar/ztyUb';
+        }
+        }>AR</button>
       </div>
   );
 }
