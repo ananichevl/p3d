@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/p3d/static/css/main.203bd7ee.css",
+    "main.js": "/p3d/static/js/main.14e7ac4d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/p3d/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Empire-decalcolor_1.png": "/p3d/static/media/Empire-decalcolor_1.69b9109ddd3cf05803bb.png",
+    "static/media/Empire-decalcolor_3.png": "/p3d/static/media/Empire-decalcolor_3.aa93e20bc1167464b881.png",
+    "static/media/Empire-decalcolor_5.png": "/p3d/static/media/Empire-decalcolor_5.fa90ac13fe6e7f0bcdfc.png",
+    "static/media/Empire-decalcolor_2.png": "/p3d/static/media/Empire-decalcolor_2.6bc2b33ccac4f3e337b0.png",
+    "static/media/Empire-decalcolor_4.png": "/p3d/static/media/Empire-decalcolor_4.5cb31868021aa3cbd258.png",
+    "static/media/Empire-basecolor_3.png": "/p3d/static/media/Empire-basecolor_3.bd4921b03da0a4636e9c.png",
+    "static/media/Empire-basecolor_2.png": "/p3d/static/media/Empire-basecolor_2.4490cd9f9ac12e8e4930.png",
+    "static/media/Empire-basecolor_1.png": "/p3d/static/media/Empire-basecolor_1.f9cc889b6729f9e0c800.png",
+    "index.html": "/p3d/index.html",
+    "main.203bd7ee.css.map": "/p3d/static/css/main.203bd7ee.css.map",
+    "main.14e7ac4d.js.map": "/p3d/static/js/main.14e7ac4d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/p3d/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.203bd7ee.css",
+    "static/js/main.14e7ac4d.js"
+  ]
+}
