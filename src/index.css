@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: -webkit-inline-box;
+}
+
+iframe {
+  border-width: 0;
+}
