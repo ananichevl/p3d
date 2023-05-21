@@ -57,7 +57,8 @@ function App() {
                 <Decal selected={selectedDecal} setSelected={setSelectedDecal}/>
                 <Button style={{
                     marginTop: '20px',
-                    boxShadow: '#999999 0 1px 5px 1px'
+                    boxShadow: '#999999 0 1px 5px 1px',
+                    marginBottom: '20px'
                 }} variant="contained" href={qrLinks[selectedBase][selectedDecal]}>
                     <div style={{
                         display: 'flex',
