@@ -16,9 +16,48 @@ body {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
-  display: -webkit-inline-box;
 }
 
 iframe {
   border-width: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 100vw;
+    height: 75vw;
+  }
+
+  canvas {
+    width: 100vw;
+    height: 75vw;
+  }
+
+  .qrcode {
+    display: none;
+  }
+
+  .decal {
+    width: 100vw !important;;
+  }
+
+  .base {
+    width: 60vw !important;;
+  }
+
+  .circle_container {
+    width: 18vw !important;
+    height: 18vw !important;
+  }
+
+  .circle {
+    width: 16vw !important;
+    height: 16vw !important;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+    display: -webkit-inline-box;
+  }
 }

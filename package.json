@@ -1,6 +1,5 @@
 {
   "name": "my-app",
-  "homepage": "https://ananichevl.github.io/p3d",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
