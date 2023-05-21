@@ -55,7 +55,10 @@ function App() {
                 <Typography variant="h3">Select configuration</Typography>
                 <Base selected={selectedBase} setSelected={setSelectedBase}/>
                 <Decal selected={selectedDecal} setSelected={setSelectedDecal}/>
-                <Button style={{marginTop: '20px'}} variant="contained" href={qrLinks[selectedBase][selectedDecal]}>
+                <Button style={{
+                    marginTop: '20px',
+                    boxShadow: '#999999 0 1px 5px 1px'
+                }} variant="contained" href={qrLinks[selectedBase][selectedDecal]}>
                     <div style={{
                         display: 'flex',
                         flexDirection: 'column',

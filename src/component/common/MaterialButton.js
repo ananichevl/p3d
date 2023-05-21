@@ -21,8 +21,8 @@ export const MaterialButton = ({name, icon, isSelected, onClick, color}) => {
                     backgroundImage: `${icon ? `url(${icon})` : ''}`,
                     backgroundColor: `${color ? color : ''}`,
                     display: 'flex',
-                    border: `${isSelected ? '4px solid #ff99ff' : 'none'}`,
-                    boxShadow: `${isSelected ? '#cc52ff 0px 0px 14px inset' : 'none'}`,
+                    boxShadow: '#999999 0 1px 5px 1px',
+
                 }}>
                 </div>
             </div>
