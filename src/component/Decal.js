@@ -1,6 +1,6 @@
 import {MaterialButton} from "./common/MaterialButton";
 import P3dEmbedApi from "@p3d/embed-api";
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 import decal1 from "../decal/Empire-decalcolor_1.png";
 import decal2 from "../decal/Empire-decalcolor_2.png";
 import decal3 from "../decal/Empire-decalcolor_3.png";
