@@ -70,7 +70,7 @@ function App() {
                         <Typography variant="h7">View in your space</Typography>
                         <QRCode className='qrcode'
                             size={128}
-                            value={'https://p3d.in/ar/p0da1'}
+                            value={qrLinks[selectedBase][selectedDecal]}
                         />
                     </div>
                 </Button>
