@@ -7,7 +7,7 @@ html {
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0 10px 0 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
@@ -39,14 +39,18 @@ iframe {
 
 
 @media only screen and (max-width: 600px) {
+  h3 {
+    font-size: 2.5rem !important;
+  }
+
   iframe {
     width: 100vw;
-    height: 75vw;
+    height: 100vw;
   }
 
   canvas {
     width: 100vw;
-    height: 75vw;
+    height: 100vw;
   }
 
   .qrcode {
@@ -69,6 +73,28 @@ iframe {
   .circle {
     width: 16vw !important;
     height: 16vw !important;
+  }
+
+  a {
+    position: absolute !important;
+    top: 100vw;
+    left: 88vw;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    padding: 3px !important;
+    background-color: #fff !important;
+  }
+
+  a div {
+    background-image: url("./buttons/ar.png");
+    background-size: 50px;
+    width: 50px;
+    height: 84px;
+    margin-bottom: 0 !important;
+  }
+
+  a div span {
+    display: none;
   }
 }
 
