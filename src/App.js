@@ -58,6 +58,7 @@ function App() {
                     <Button
                         variant="contained"
                         className='button_mobile'
+                        href={qrLinks[selectedBase][selectedDecal]}
                         style={{
                             marginBottom: '0 !important',
                             minWidth: '0px',
