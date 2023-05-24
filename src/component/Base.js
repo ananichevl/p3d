@@ -27,7 +27,7 @@ export const Base = ({selected, setSelected}) => {
     }, [selected])
 
     return (
-        <div style={{marginTop: '10px'}}>
+        <div style={{marginTop: '10px'}} className='base_mobile'>
             <Typography variant="h5">Colore di base</Typography>
             <div className='base' style={{display: 'flex', justifyContent: 'space-between', width: '300px', marginTop: '20px'}}>
                 <MaterialButton name={'Color1'} icon={baseColor1} isSelected={1 === selected} onClick={() => setSelected(1)}/>

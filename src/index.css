@@ -7,7 +7,7 @@ html {
 
 body {
   height: 100vh;
-  margin: 0 10px 0 10px;
+  margin: 0 10px 20px 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
@@ -37,10 +37,17 @@ iframe {
   opacity: 1 !important;
 }
 
+.button_mobile {
+  display: none !important;
+}
 
 @media only screen and (max-width: 600px) {
+  .button_mobile {
+    display: block !important;
+  }
+
   h3 {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
   }
 
   iframe {
@@ -53,29 +60,29 @@ iframe {
     height: 100vw;
   }
 
-  .qrcode {
-    display: none;
-  }
-
   .decal {
-    width: 100vw !important;;
+    width: 84vw !important;;
   }
 
   .base {
-    width: 60vw !important;;
+    width: 50vw !important;;
   }
 
   .circle_container {
-    width: 18vw !important;
-    height: 18vw !important;
+    width: 15vw !important;
+    height: 15vw !important;
   }
 
   .circle {
-    width: 16vw !important;
-    height: 16vw !important;
+    width: 15vw !important;
+    height: 15vw !important;
   }
 
-  a {
+  .container_mobile {
+    height: 100%;
+  }
+
+  .o {
     position: absolute !important;
     top: 100vw;
     left: 88vw;
@@ -85,7 +92,7 @@ iframe {
     background-color: #fff !important;
   }
 
-  a div {
+  .o div {
     background-image: url("./buttons/ar.png");
     background-size: 50px;
     width: 50px;
@@ -93,8 +100,16 @@ iframe {
     margin-bottom: 0 !important;
   }
 
-  a div span {
+  .o div span {
     display: none;
+  }
+
+  .button_desktop {
+    display: none !important;
+  }
+
+  .base_mobile {
+    margin-top: -35px !important;
   }
 }
 

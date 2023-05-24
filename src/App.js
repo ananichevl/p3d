@@ -4,6 +4,7 @@ import {Decal} from "./component/Decal";
 import {Button, createTheme, ThemeProvider, Typography} from "@mui/material";
 import QRCode from "react-qr-code";
 import {useState} from "react";
+import ar from './buttons/ar.png'
 
 const qrLinks = {
     1: {
@@ -51,11 +52,35 @@ function App() {
     const [selectedDecal, setSelectedDecal] = useState(1);
     return (
         <ThemeProvider theme={theme}>
-            <div style={{height: '480px'}}>
-                <Typography variant="h3">Select configuration</Typography>
+            <div style={{height: '480px'}} className='container_mobile'>
+                <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                    <Typography variant="h3">Select configuration</Typography>
+                    <Button
+                        variant="contained"
+                        className='button_mobile'
+                        style={{
+                            marginBottom: '0 !important',
+                            minWidth: '0px',
+                            padding: '3px',
+                            backgroundColor: '#fff'
+                        }}
+                    >
+                        <div
+                            style={{
+                                backgroundImage: `url(${ar})`,
+                                backgroundSize: '50px',
+                                width: '50px',
+                                height: '84px',
+                            }}>
+
+                        </div>
+                    </Button>
+                </div>
                 <Base selected={selectedBase} setSelected={setSelectedBase}/>
                 <Decal selected={selectedDecal} setSelected={setSelectedDecal}/>
-                <Button style={{
+                <Button
+                    className='button_desktop'
+                    style={{
                     marginTop: '20px',
                     boxShadow: '#999999 0 1px 5px 1px',
                     marginBottom: '20px'
