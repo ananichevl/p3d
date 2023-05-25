@@ -54,7 +54,7 @@ function App() {
         <ThemeProvider theme={theme}>
             <div style={{height: '480px'}} className='container_mobile'>
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                    <Typography variant="h3">Seleziona la configurazione</Typography>
+                    <Typography variant="h5">Seleziona la configurazione</Typography>
                     <Button
                         variant="contained"
                         className='button_mobile'
@@ -94,7 +94,7 @@ function App() {
                         alignContent: 'center',
                         marginBottom: '10px'
                     }}>
-                        <Typography variant="h7">AR vista</Typography>
+                        <Typography variant="h7">Guarda in AR</Typography>
                         <QRCode className='qrcode'
                             size={128}
                             value={qrLinks[selectedBase][selectedDecal]}
