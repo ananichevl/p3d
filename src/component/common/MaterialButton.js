@@ -5,7 +5,8 @@ export const MaterialButton = ({name, icon, isSelected, onClick, color}) => {
         <div onClick={onClick} style={{
             display: 'flex',
             flexDirection: 'column',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            alignItems: 'center'
         }}>
             <div className='circle_container' style={{
                 width: '100px',
@@ -26,7 +27,7 @@ export const MaterialButton = ({name, icon, isSelected, onClick, color}) => {
                 }}>
                 </div>
             </div>
-            <Typography style={{textAlign: 'center'}} variant="h7">{name}</Typography>
+            <Typography style={{textAlign: 'center'}} variant="h8">{name}</Typography>
         </div>
     );
 }

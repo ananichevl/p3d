@@ -6,7 +6,7 @@ import baseColor3 from '../base/Empire-basecolor_3.png';
 import P3dEmbedApi from "@p3d/embed-api";
 import {Typography} from "@mui/material";
 
-export const Base = ({selected, setSelected}) => {
+export const Colore = ({selected, setSelected}) => {
     const p3d = new P3dEmbedApi(document.getElementById("p3d-embed"));
     const colors = [baseColor1, baseColor2, baseColor3];
 
@@ -30,9 +30,9 @@ export const Base = ({selected, setSelected}) => {
         <div style={{marginTop: '10px'}} className='base_mobile'>
             <Typography variant="h5">Colore di base</Typography>
             <div className='base' style={{display: 'flex', justifyContent: 'space-between', width: '300px', marginTop: '20px'}}>
-                <MaterialButton name={'Color1'} icon={baseColor1} isSelected={1 === selected} onClick={() => setSelected(1)}/>
-                <MaterialButton name={'Color2'} icon={baseColor2} isSelected={2 === selected}  onClick={() => setSelected(2)}/>
-                <MaterialButton name={'Color3'} icon={baseColor3} isSelected={3 === selected}  onClick={() => setSelected(3)}/>
+                <MaterialButton name={'Colore1'} icon={baseColor1} isSelected={1 === selected} onClick={() => setSelected(1)}/>
+                <MaterialButton name={'Colore2'} icon={baseColor2} isSelected={2 === selected}  onClick={() => setSelected(2)}/>
+                <MaterialButton name={'Colore3'} icon={baseColor3} isSelected={3 === selected}  onClick={() => setSelected(3)}/>
             </div>
         </div>
     );

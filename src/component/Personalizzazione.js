@@ -8,7 +8,7 @@ import decal4 from "../decal/Empire-decalcolor_4.png";
 import decal5 from "../decal/Empire-decalcolor_5.png";
 import {Typography} from "@mui/material";
 
-export const Decal = ({selected, setSelected}) => {
+export const Personalizzazione = ({selected, setSelected}) => {
     const p3d = new P3dEmbedApi(document.getElementById("p3d-embed"));
     const decals = [decal1, decal2, decal3, decal4, decal5];
 
@@ -30,13 +30,13 @@ export const Decal = ({selected, setSelected}) => {
 
     return (
         <div style={{marginTop: '10px'}}>
-            <Typography variant="h5">Decal</Typography>
+            <Typography variant="h5">Personalizzazione</Typography>
             <div className='decal' style={{display: 'flex', justifyContent: 'space-between', width: '500px', marginTop: '20px'}}>
-                <MaterialButton name={'Decal1'} color={'#CC6325'} isSelected={1 === selected} onClick={() => setSelected(1)}/>
-                <MaterialButton name={'Decal2'} color={'#BB1D7B'} isSelected={2 === selected}  onClick={() => setSelected(2)}/>
-                <MaterialButton name={'Decal3'} color={'#301BAE'} isSelected={3 === selected}  onClick={() => setSelected(3)}/>
-                <MaterialButton name={'Decal4'} color={'#20A6C1'} isSelected={4 === selected}  onClick={() => setSelected(4)}/>
-                <MaterialButton name={'Decal5'} color={'#C72D25'} isSelected={5 === selected}  onClick={() => setSelected(5)}/>
+                <MaterialButton name={'Pers.1'} color={'#CC6325'} isSelected={1 === selected} onClick={() => setSelected(1)}/>
+                <MaterialButton name={'Pers.2'} color={'#BB1D7B'} isSelected={2 === selected}  onClick={() => setSelected(2)}/>
+                <MaterialButton name={'Pers.3'} color={'#301BAE'} isSelected={3 === selected}  onClick={() => setSelected(3)}/>
+                <MaterialButton name={'Pers.4'} color={'#20A6C1'} isSelected={4 === selected}  onClick={() => setSelected(4)}/>
+                <MaterialButton name={'Pers.5'} color={'#C72D25'} isSelected={5 === selected}  onClick={() => setSelected(5)}/>
             </div>
         </div>
     );

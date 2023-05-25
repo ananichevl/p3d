@@ -1,6 +1,6 @@
 import './App.css';
-import {Base} from "./component/Base";
-import {Decal} from "./component/Decal";
+import {Colore} from "./component/Colore";
+import {Personalizzazione} from "./component/Personalizzazione";
 import {Button, createTheme, ThemeProvider, Typography} from "@mui/material";
 import QRCode from "react-qr-code";
 import {useState} from "react";
@@ -54,7 +54,7 @@ function App() {
         <ThemeProvider theme={theme}>
             <div style={{height: '480px'}} className='container_mobile'>
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                    <Typography variant="h3">Select configuration</Typography>
+                    <Typography variant="h3">Seleziona la configurazione</Typography>
                     <Button
                         variant="contained"
                         className='button_mobile'
@@ -77,8 +77,8 @@ function App() {
                         </div>
                     </Button>
                 </div>
-                <Base selected={selectedBase} setSelected={setSelectedBase}/>
-                <Decal selected={selectedDecal} setSelected={setSelectedDecal}/>
+                <Colore selected={selectedBase} setSelected={setSelectedBase}/>
+                <Personalizzazione selected={selectedDecal} setSelected={setSelectedDecal}/>
                 <Button
                     className='button_desktop'
                     style={{
@@ -94,7 +94,7 @@ function App() {
                         alignContent: 'center',
                         marginBottom: '10px'
                     }}>
-                        <Typography variant="h7">View in your space</Typography>
+                        <Typography variant="h7">AR vista</Typography>
                         <QRCode className='qrcode'
                             size={128}
                             value={qrLinks[selectedBase][selectedDecal]}
